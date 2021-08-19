@@ -1,1 +1,1 @@
-web: java -jar target/classes/com/pos/backendapi/Application
+web: java -jar target/backend-0.0.1-SNAPSHOT.jar
