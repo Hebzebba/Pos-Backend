@@ -1,10 +1,10 @@
 package com.pos.backendapi.controllers
 
-import org.springframework.web.bind.annotation.{RequestMapping, RestController}
+import org.springframework.web.bind.annotation.{GetMapping, RequestMapping, RestController}
 
 @RestController
 class BaseController {
-  @RequestMapping(path = Array("/"))
+ @GetMapping(path = Array("/"))
   def baseController()={
     "Hello and welcome to seth pos application"
   }
