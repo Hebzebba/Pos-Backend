@@ -1,17 +1,8 @@
 package com.pos.backendapi
-
-
 import org.springframework.boot.SpringApplication
-import org.springframework.boot.autoconfigure.{EnableAutoConfiguration, SpringBootApplication}
-
-
-@EnableAutoConfiguration
-@SpringBootApplication
-class SpringIntegration{}
-
 
 object Application {
 def main(args : Array[String]): Unit ={
-   SpringApplication.run(classOf[SpringIntegration])
+   SpringApplication.run(classOf[Main])
 }
 }
