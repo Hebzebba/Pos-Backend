@@ -64,7 +64,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.pos.backendapi.Main</mainClass>
+					<mainClass>com.pos.backendapi.Application</mainClass>
 					<layout>ZIP</layout>
 				</configuration>
 				<executions>
