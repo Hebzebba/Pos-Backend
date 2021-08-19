@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
 class Main {}
-@SpringBootApplication
+
 object Main {
   def main(args : Array[String]): Unit ={
     SpringApplication.run(classOf[Main])
