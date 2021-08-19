@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* package com.pos.backendapi.Application
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* package com.pos.backendapi.Main
