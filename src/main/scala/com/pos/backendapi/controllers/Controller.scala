@@ -1,45 +1,34 @@
 package com.pos.backendapi.controllers
 
 import com.pos.backendapi.model.ProductModel
-import com.pos.backendapi.service.{FireBaseService, ServiceLogic}
+import com.pos.backendapi.service.{FireBaseService}
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.web.bind.annotation.{GetMapping, PathVariable, PostMapping, RequestBody, RequestMapping, RestController}
-
-import java.util.List
+import org.springframework.web.bind.annotation.{DeleteMapping, GetMapping, PathVariable, PostMapping, RequestBody, RequestMapping, RequestParam, RestController}
 
 
 @RestController
 @RequestMapping(path = Array("/api"))
 class Controller {
-
-   @Autowired
-   var serviceLogic: ServiceLogic = _
-
   @Autowired
   var fireBaseService : FireBaseService = _
 
-//  @PostMapping(path = Array("add/{name}/{quantity}/{price}"))
-//  def saveProduct (@PathVariable name: String, @PathVariable quantity: Double, @PathVariable price: Double ): String ={
-//     serviceLogic.addProduct(name,quantity,price);
-//  }
-
   @PostMapping(path = Array("/add"))
-  def add(@RequestBody product: ProductModel):String = {
+  def add(@RequestBody product: ProductModel)= {
     fireBaseService.addProduct(product)
   }
 
-  @GetMapping(path = Array("/product"))
-  def getProduct():List[ProductModel] = {
-    serviceLogic.getAllProduct()
+  @GetMapping(path = Array("/get-product/{product_name}"))
+  def getProduct (@PathVariable product_name:String)={
+    fireBaseService.getProduct(product_name)
+  }
+  @GetMapping(path = Array("/get-all-product"))
+  def getAllProduct() = {
+    fireBaseService.getAllProduct()
   }
 
-  @GetMapping(path=Array("/delete/{id}"))
-  def deleteProduct(@PathVariable id: Long):String={
-    serviceLogic.deleteProduct(id)
+  @DeleteMapping(path=Array("/delete"))
+  def deleteProduct(@RequestParam name: String)={
+    fireBaseService.deleteProduct(name)
   }
 
-  @GetMapping(path=Array("/delete-all"))
-  def deleteAllProduct():String={
-    serviceLogic.deleteAllProduct()
-  }
 }
