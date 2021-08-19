@@ -1,6 +1,6 @@
 package com.pos.backendapi.controllers
 
-import org.springframework.web.bind.annotation.{GetMapping, RequestMapping, RestController}
+import org.springframework.web.bind.annotation.{GetMapping, RestController}
 
 @RestController
 class BaseController {
