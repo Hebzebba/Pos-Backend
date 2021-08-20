@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "simpleposproject",
+  "private_key_id": "376d594467898ba904c076ab19489e283cd90a93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCo8GG8gIcwxaLv\nOZxrL1LVqNheS88rbTAyaCkXx6Snvg4FKNkJQrYm8mYqxKOLve3pLLkymQkfjoPj\nr6YWNCY88Hzacp1AZQQ/THMoBpXMCEjTE7TgDVdT9+kEC2zCFZ7mmmSR7lj33iul\n1k7VkURHrdqqGVfd2bNJdxKllWIBYCpYCKHTXqegJb9l19Lmi1Qm55bzuYW7Gsvx\n+cP2j6fTeRxDic+fd1/k8AjWtiV0HCkJCEyagle3kz3TSsasMnTYJnDMNXjrZFDs\nFXe9qHxuw5NJfmjzw7tXteZNagkg6d+1O9vrj0xM7fSw8lVk6Cnsr47CBq1adRtk\nB7Mw55KDAgMBAAECggEAUjgXYQ3ufbKaLzJLKbEw79JKZ24eyAROciHWaf/cZ1Ts\nbt9n7YVdsEvFpGfqLo8DlDmTcogfdA/AqZWpT+IWgA8MvKYOWTIwpHvZCbBWxCN+\nCdhr7aUgjLm5WqISzsyF9rZKXulwvEWQ2ZeY64DVCcuXgbRu2oZips0AMr0mowL2\nZQtbNeuAQIfir9b1QWMyy1jpWd9IxA8rphsOzS+Dl4On30noMjQ3sU85YOGu4rkS\nEgMhUJA0VPR/T+DL4TgCnc3IPGvtGdX4IhbtWH4NsLyuOqfJiiXZjivmvT058Vkz\n/fyivFLqu5BMlJ4NTKEI7T9BdgTSQCbremBxeiTsEQKBgQDmr2XhMWe31C5s9i8C\nO2su/oAR4A6Az872eQjxygqTPMBfVz1MflQfyYlHX8Tghaa3h0YuptxBOXfkbLgX\n1jEeTXAtNc5mButSvIWGfikGitTAlcEThcRKCI9lpO3N1e27EwOK+rkl2cvYg+6F\nfJMl1UGHH0MQy1kTxzFCWwjmcQKBgQC7elvOhyCUTkMzN2cOPBhpEj0D8/B5EVMu\nIbnrHxXgA0lDSk/IdHdtFvezFbZjB9BcqHqnK5lubjVR5KXX7Q+35KupO9uO2ebL\ntV7qL4S9g5E2sKASlXrJrG91IJsXR1kPT34okbqNNqbHNP/57WTZ62eSMa9AO9YQ\ncGjBeFVKMwKBgQC58J0FBAae9QcqytCfUveVHIxsXBY0m8wtfOfJxNn7Thedgbsm\nIhl6ub7OahJOC0yTWBUo21Rjuoe59iv5Aqv6yd5mgp1IPcGGofBatOwqmtLcHJlR\nPBw4tGepPWR06j/B75SGfIuqR8B4V/d1XzFYaGl2Gau8KLw3JfK9kpU88QKBgFfp\nzNtQKkrhWEnQFRdrvtamos4TuhRLt4HOdux2qz9cyyIu2rLZSpdxSb5E1D4kD+Uj\nbECwBUbvjzlTyyEyHUjShlzZoN+f9sZXyqZumgR0icfnk2ijh+zCW5HFNHT6FB1F\n3ZcQnzZRBmwrwk1ksQIvjWXUvqWUaZFT5Qu0bepZAoGBAJdKtIyOcdbjRPgdMJeP\nTkUpDz7i1zQwCDKZeikjkNWVbf2Cw8S9pzBelpCm+7M/ssdSrhYxtvYw+5qieGw2\niATIcxw9c4u/CEam2naRGjLk5+5XCskYKad71gx9CorJNuwVNppw1h7lZbgsN5qG\nfn4B65WAFSuCKmXGKtifb/po\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-omf6s@simpleposproject.iam.gserviceaccount.com",
+  "client_id": "110172884175075243081",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-omf6s%40simpleposproject.iam.gserviceaccount.com"
+}
