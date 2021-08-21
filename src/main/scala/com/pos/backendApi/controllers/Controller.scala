@@ -1,7 +1,7 @@
-package com.pos.backendapi.controllers
+package com.pos.backendApi.controllers
 
-import com.pos.backendapi.model.ProductModel
-import com.pos.backendapi.service.{FireBaseService}
+import com.pos.backendApi.model.ProductModel
+import com.pos.backendApi.service.{FireBaseService}
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.{DeleteMapping, GetMapping, PathVariable, PostMapping, RequestBody, RequestMapping, RequestParam, RestController}
 

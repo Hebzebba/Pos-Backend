@@ -1,4 +1,4 @@
-package com.pos.backendapi.swagger_ui
+package com.pos.backendApi.swagger_ui
 
 import org.springframework.context.annotation.Bean
 import org.springframework.web.servlet.config.annotation.EnableWebMvc

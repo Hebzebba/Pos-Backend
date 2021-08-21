@@ -1,10 +1,10 @@
-package com.pos.backendapi.service
+package com.pos.backendApi.service
 
 import com.google.api.core.ApiFuture
 import com.google.cloud.firestore.{DocumentReference, DocumentSnapshot, Firestore, QueryDocumentSnapshot, QuerySnapshot, WriteResult}
 import com.google.firebase.cloud.FirestoreClient
-import com.pos.backendapi.model.ProductModel
-import com.pos.backendapi.response.ProductResponse
+import com.pos.backendApi.model.ProductModel
+import com.pos.backendApi.response.ProductResponse
 import org.springframework.stereotype.Service
 
 import java.util

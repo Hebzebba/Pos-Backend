@@ -1,13 +1,13 @@
-package com.pos.backendapi
+package com.pos.backendApi
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
-class Main {}
+class Application {}
 
 object Application {
   def main(args : Array[String]): Unit ={
-    SpringApplication.run(classOf[Main])
+    SpringApplication.run(classOf[Application])
   }
 }

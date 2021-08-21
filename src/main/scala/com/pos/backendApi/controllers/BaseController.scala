@@ -1,4 +1,4 @@
-package com.pos.backendapi.controllers
+package com.pos.backendApi.controllers
 
 import org.springframework.web.bind.annotation.{GetMapping, RestController}
 

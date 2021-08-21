@@ -1,4 +1,4 @@
-package com.pos.backendapi.response;
+package com.pos.backendApi.response;
 
 public class ProductResponse {
     public String productName;

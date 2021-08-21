@@ -16,6 +16,9 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+<!--		<start-class></start-class>-->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -52,15 +55,16 @@
 	</dependencies>
 
 	<build>
-		<pluginManagement>
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.pos.backendapi.Main</mainClass>
-				</configuration>
 
+				<configuration>
+					<mainClass>com.pos.backendApi.Application</mainClass>
+					<layout>JAR</layout>
+				</configuration>
 				<executions>
 					<execution>
 						<goals>
@@ -69,18 +73,7 @@
 					</execution>
 				</executions>
 			</plugin>
-<!--			<plugin>-->
-<!--				<groupId>com.heroku.sdk</groupId>-->
-<!--				<artifactId>heroku-maven-plugin</artifactId>-->
-<!--				<version>3.0.3</version>-->
-<!--				<configuration>-->
-<!--					<processTypes>-->
-<!--						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>-->
-<!--					</processTypes>-->
-<!--				</configuration>-->
-<!--			</plugin>-->
 		</plugins>
-		</pluginManagement>
 	</build>
 
 </project>

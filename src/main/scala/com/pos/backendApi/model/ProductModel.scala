@@ -1,4 +1,4 @@
-package com.pos.backendapi.model
+package com.pos.backendApi.model
 
 class ProductModel {
 
