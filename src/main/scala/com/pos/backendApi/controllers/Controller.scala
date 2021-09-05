@@ -1,13 +1,14 @@
 package com.pos.backendApi.controllers
 
 import com.pos.backendApi.model.ProductModel
-import com.pos.backendApi.service.{FireBaseService}
+import com.pos.backendApi.service.FireBaseService
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.web.bind.annotation.{DeleteMapping, GetMapping, PathVariable, PostMapping, RequestBody, RequestMapping, RequestParam, RestController}
+import org.springframework.web.bind.annotation.{CrossOrigin, DeleteMapping, GetMapping, PathVariable, PostMapping, RequestBody, RequestMapping, RequestParam, RestController}
 
 
 @RestController
 @RequestMapping(path = Array("/api"))
+@CrossOrigin(originPatterns = Array("http://localhost:3000","https://simplepos.netlify.app"))
 class Controller {
   @Autowired
   var fireBaseService : FireBaseService = _
